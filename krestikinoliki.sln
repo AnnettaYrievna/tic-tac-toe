@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "krestikinoliki", "krestikinoliki\krestikinoliki.csproj", "{19945443-B49E-4D28-996E-F103F2F17AE8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4FC53416-4F7A-4A4A-A802-01F454DA8B54} = {4FC53416-4F7A-4A4A-A802-01F454DA8B54}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AI", "AI\AI.csproj", "{4FC53416-4F7A-4A4A-A802-01F454DA8B54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19945443-B49E-4D28-996E-F103F2F17AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19945443-B49E-4D28-996E-F103F2F17AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19945443-B49E-4D28-996E-F103F2F17AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19945443-B49E-4D28-996E-F103F2F17AE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FC53416-4F7A-4A4A-A802-01F454DA8B54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FC53416-4F7A-4A4A-A802-01F454DA8B54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FC53416-4F7A-4A4A-A802-01F454DA8B54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FC53416-4F7A-4A4A-A802-01F454DA8B54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD01F5E8-6866-49E9-8E6E-1F6B934B0EC2}
+	EndGlobalSection
+EndGlobal
